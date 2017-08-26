@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Contact Form 7 Web Communciations
- * Plugin URI: https://github.com/sturple/contact-form-7-web-communications/
+ * Plugin URI: https://github.com/fgms/contact-form-7-web-communications/
  * Description: Wordpress plugin to add communications to Contact 7 Forms
  * Version: 0.0.1
  * Author: Shawn Turple
- * Author URI: https://github.com/sturple/
+ * Author URI: https://github.com/fgms/
  * License: GPL-3.0
  * Plugin Type: Contact Form 7
  */
