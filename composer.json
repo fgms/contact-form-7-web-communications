@@ -1,0 +1,35 @@
+{
+    "name" : "sturple/contact-form-7-web-communications",
+    "version" : "0.0.1",
+    "description" : "Wordpress plugin to add communications to Contact 7 Forms ",
+    "keywords" : ["wordpress", "plugin","FGMS", "Contact 7 Forms"],
+    "homepage" : "https://github.com/sturple/wp-plugin-cpt",
+    "license" : "GPL-3.0",
+    "type" : "wordpress-plugin",
+    "minimum-stability" : "dev",
+    "authors" : [
+        {
+            "name" : "Shawn Turple",
+            "email" : "shawn@turple.ca",
+            "homepage" : "https://github.com/sturple",
+            "role" : "Developer"
+        }
+    ],
+    "repositories": [
+    {
+        "type" : "composer",
+        "url" : "https://wpackagist.org"
+    }
+
+
+    ],
+    "require": {
+        "php" : ">=5.4",
+        "composer/installers": "~1.0",
+        "sturple/wordpress-utilities": "~1.0"
+
+    },
+    "autoload": {
+        "psr-4" : {"Fgms\\" : "src/Fgms/"}
+    }
+}
